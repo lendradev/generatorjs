@@ -2,7 +2,7 @@
     "name": "@lendradev/generator",
     "version": "1.0.0",
     "description": "Generic generator library for various applications.",
-    "main": "src/main.ts",
+    "main": "src/index.ts",
     "scripts": {
         "build": "tsc",
         "test": "jest",
