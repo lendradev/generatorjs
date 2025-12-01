@@ -2,8 +2,13 @@
     "name": "@lendradev/generator",
     "version": "1.0.0",
     "description": "Generic generator library for various applications.",
-    "main": "src/index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "type": "module",
+    "files": [
+        "dist",
+        "README.md"
+    ],
     "scripts": {
         "build": "tsc",
         "start": "node dist/main.js"

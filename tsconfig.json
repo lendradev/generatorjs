@@ -3,7 +3,7 @@
         "target": "ES2020",
         "module": "CommonJS",
         "declaration": true,
-        "sourceMap": true,
+        "declarationDir": "dist",
         "outDir": "dist",
         "rootDir": "src",
         "strict": true,
@@ -21,7 +21,6 @@
     },
     "include": [
         "src",
-        "test"
     ],
     "exclude": [
         "node_modules",
