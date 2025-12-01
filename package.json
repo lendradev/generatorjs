@@ -11,7 +11,9 @@
     ],
     "scripts": {
         "build": "tsc",
-        "start": "node dist/main.js"
+        "start": "node dist/main.js",
+        "prepublish": "tsc",
+        "publish": "npm publish"
     },
     "devDependencies": {
         "@types/node": "^24.10.1"
