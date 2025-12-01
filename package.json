@@ -2,6 +2,7 @@
     "name": "@lendradev/generator",
     "version": "1.0.0",
     "description": "Generic generator library for various applications.",
+    "private": false,
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "type": "module",
