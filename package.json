@@ -3,9 +3,12 @@
     "version": "1.0.0",
     "description": "Generic generator library for various applications.",
     "main": "src/index.ts",
+    "type": "module",
     "scripts": {
         "build": "tsc",
-        "test": "jest",
         "start": "node dist/main.js"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.1"
     }
 }
