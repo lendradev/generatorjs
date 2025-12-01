@@ -1,0 +1,11 @@
+{
+    "name": "@lendradev/generator",
+    "version": "1.0.0",
+    "description": "Generic generator library for various applications.",
+    "main": "src/main.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "start": "node dist/main.js"
+    }
+}
